@@ -1,0 +1,25 @@
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.004914       192.168.1.12          74.125.24.189         UDP      75     60676 → 443 Len=33
+
+Frame 2: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface \Device\NPF_{9CBC67CD-9DBD-4634-819F-26E186AF9A63}, id 0
+Ethernet II, Src: IntelCor_fa:5c:08 (90:61:ae:fa:5c:08), Dst: zte_e7:ba:18 (34:da:b7:e7:ba:18)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 74.125.24.189
+User Datagram Protocol, Src Port: 60676, Dst Port: 443
+Data (33 bytes)
+
+0000  48 22 b4 a8 fb c1 b4 05 3e 5b d3 d5 36 49 a8 54   H"......>[..6I.T
+0010  74 7a c4 3e ce f2 7e 9f 06 11 14 22 a7 fd 2c 32   tz.>..~...."..,2
+0020  df                                                .
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.682288       192.168.1.12          118.98.77.176         TCP      55     49499 → 443 [ACK] Seq=1 Ack=1 Win=11011 Len=1 [TCP segment of a reassembled PDU]
+
+Frame 3: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{9CBC67CD-9DBD-4634-819F-26E186AF9A63}, id 0
+Ethernet II, Src: IntelCor_fa:5c:08 (90:61:ae:fa:5c:08), Dst: zte_e7:ba:18 (34:da:b7:e7:ba:18)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 118.98.77.176
+Transmission Control Protocol, Src Port: 49499, Dst Port: 443, Seq: 1, Ack: 1, Len: 1
+
+Jawab :
+
+Protokol yang digunakan pada ip source 192.168.1.12 dan ip destination 74.125.24.189 adalah protokol UDP (User Datagram Protocol) 
+Protokol yang digunakan pada ip source 192.168.1.12 dan ip destination 118.98.77.176 adalah protokol TCP (Transmission Control Protocol)
